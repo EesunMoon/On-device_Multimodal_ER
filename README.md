@@ -1,1 +1,1 @@
-# On-device Multimodal Emtoion Recognition
+# Multimodal Emtoion Recognition for On-device AI
