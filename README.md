@@ -5,7 +5,7 @@
 
 ## 🔍 Project Summary
 
-As part of a government agency project, I led the development of an **on-device multimodal emotion recognition system** on NPUs (Neural Processing Units). The project focused on optimizing real-time AI applications for **low latency** and **power efficiency**, addressing constraints typical of edge systems, such as limited model size and computational resources.
+As part of a government agency project, I led the development of an **on-device multimodal emotion recognition system** on NPUs (Neural Processing Units). The project focused on optimizing real-time AI applications for **high emotion classification accuracy**, **low latency**, and **power efficiency**, addressing constraints typical of edge systems, such as limited model size and computational resources.
 
 ### Objectives
 1. **Enhancing emotion recognition performance** by leveraging multimodal data sources, including:
@@ -35,7 +35,6 @@ As part of a government agency project, I led the development of an **on-device 
 - Applied **quantization techniques** (Max, Percentile, and Max-Percentile) to compress models, optimizing based on an efficiency metric combining:
   - Matrix: Accuracy-increase ratio x Compression ratio
 
----
 
 ## 📊 Optimization Methods
 
@@ -54,6 +53,8 @@ As part of a government agency project, I led the development of an **on-device 
 ---
 
 ## ⚙️ Evaluation Metrics
+### Emotion Classification Accuracy
+- Achieved an impressive **99.68% accuracy**, ensuring reliable and robust emotion recognition in real-time applications.
 
 ### Latency
 - Compared model size before and after compression.
@@ -63,16 +64,12 @@ As part of a government agency project, I led the development of an **on-device 
 - Measured power usage with an outlet power meter.
 - Found **3.12x reduction** in power consumption for NPU-based models compared to GPU-based models.
 
----
-
 ## 📝 Key Findings
 
 - The system achieved significant improvements in **efficiency and scalability**, making it suitable for real-time AI applications.
 - Successfully implemented at the **Korean Institute of Science and Technology** as part of a government initiative.
 - Findings were presented at an academic conference, and a related paper is currently under review.
 - Reinforced my passion for developing **efficient, real-world AI systems**.
-
----
 
 ## 🤔 Insights on Clipping Range for Quantization
 - **MAX**: Activations clipped using minimum and maximum values.
